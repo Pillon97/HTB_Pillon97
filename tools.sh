@@ -26,7 +26,7 @@ echo -e "#######################################################################
 echo -e "#                                 Tools:                                #"
 echo -e "#                         1. vpn      4. gobuster                       #"
 echo -e "#                         2. nmap     5. FFuF                           #"
-echo -e "#                         3. ncat     6. ncat                           #"
+echo -e "#                         3. ncat     6. ping                           #"
 echo -e "#                                 7. git                                #"
 echo -e "#                                                                       #"
 echo -e "#########################################################################"
@@ -38,12 +38,24 @@ read -p "> " choice
 
 # Választás kezelése
 case $choice in
-    1) echo -e "${GREEN}VPN indítása...${RESET}" ;;
-    2) echo -e "${GREEN}Nmap indítása...${RESET}" ;;
-    3) echo -e "${GREEN}Ncat indítása...${RESET}" ;;
-    4) echo -e "${GREEN}Gobuster indítása...${RESET}" ;;
-    5) echo -e "${GREEN}Feezer indítása...${RESET}" ;;
-    6) echo -e "${GREEN}Ncat újraindítása...${RESET}" ;;
-    7) echo -e "${GREEN}Git indítása...${RESET}" ;;
+    1)
+	echo -e "${GREEN}VPN indítása...${RESET}" 
+	./vpn.sh 
+	;;
+    2) echo -e "${GREEN}Nmap indítása...${RESET}"
+	./nmap.sh
+	;;
+    3) echo -e "${GREEN}Ncat indítása...${RESET}"
+	ncat.sh
+	;;
+    4) echo -e "${GREEN}Gobuster indítása...${RESET}" 
+	gobuster.sh
+	;;
+    5) echo -e "${GREEN}FFuF indítása...${RESET}" 
+	ffuf.sh
+    6) echo -e "${GREEN}Ping újraindítása...${RESET}" ;;
+    7) echo -e "${GREEN}Git indítása...${RESET}" 
+	git.sh
+	;;
     *) echo -e "${RED}Érvénytelen választás!${RESET}" ;;
 esac
