@@ -46,16 +46,16 @@ case $choice in
 	./nmap.sh
 	;;
     3) echo -e "${GREEN}Ncat indítása...${RESET}"
-	ncat.sh
+	./ncat.sh
 	;;
     4) echo -e "${GREEN}Gobuster indítása...${RESET}" 
-	gobuster.sh
+	./gobuster.sh
 	;;
     5) echo -e "${GREEN}FFuF indítása...${RESET}" 
-	ffuf.sh;;
+	./ffuf.sh;;
     6) echo -e "${GREEN}Ping újraindítása...${RESET}" ;;
     7) echo -e "${GREEN}Git indítása...${RESET}" 
-	git.sh
+	./git.sh
 	;;
     *) echo -e "${RED}Érvénytelen választás!${RESET}" ;;
 esac
