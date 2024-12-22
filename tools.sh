@@ -52,7 +52,7 @@ case $choice in
 	gobuster.sh
 	;;
     5) echo -e "${GREEN}FFuF indítása...${RESET}" 
-	ffuf.sh
+	ffuf.sh;;
     6) echo -e "${GREEN}Ping újraindítása...${RESET}" ;;
     7) echo -e "${GREEN}Git indítása...${RESET}" 
 	git.sh
