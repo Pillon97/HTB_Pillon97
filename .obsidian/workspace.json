@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ae02fb072a75dae2",
+        "id": "55c3096ea5f69717",
         "type": "tabs",
         "children": [
           {
-            "id": "3fe5003edf61b7f2",
+            "id": "ef32af9157ceb66d",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "Notes/Footprinting/SMTP.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+              "icon": "lucide-file",
+              "title": "SMTP"
             }
           }
         ]
@@ -179,12 +179,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3fe5003edf61b7f2",
+  "active": "ef32af9157ceb66d",
   "lastOpenFiles": [
-    "README.md",
     "Notes/Footprinting/SNMP.md",
     "Notes/Footprinting/SMTP.md",
     "Notes/Footprinting/POP3 OMAP.md",
+    "README.md",
     "Notes/Footprinting",
     "Notes"
   ]
