@@ -11,14 +11,14 @@
             "id": "3fe5003edf61b7f2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Notes/Footprinting/POP3 OMAP.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "POP3 OMAP"
+              "icon": "diff",
+              "title": "Diff: workspace.json"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
     "id": "669010e6e6d95a6d",
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Note.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Note"
+              "title": "Outline of README"
             }
           },
           {
@@ -166,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 204.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,13 +181,11 @@
   },
   "active": "3fe5003edf61b7f2",
   "lastOpenFiles": [
+    "README.md",
     "Notes/Footprinting/SNMP.md",
-    "Notes/Footprinting/POP3 OMAP.md",
     "Notes/Footprinting/SMTP.md",
-    "2025-02-23.md",
-    "Untitled.canvas",
+    "Notes/Footprinting/POP3 OMAP.md",
     "Notes/Footprinting",
-    "Notes",
-    "README.md"
+    "Notes"
   ]
 }
