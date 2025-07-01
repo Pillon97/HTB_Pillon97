@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "84787ecba729a5aa",
+        "id": "20429a2d75bb6f4e",
         "type": "tabs",
         "children": [
           {
-            "id": "7ec9513e4d9a4f86",
+            "id": "1fdd52decb8bc0fc",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -175,7 +175,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7ec9513e4d9a4f86",
+  "active": "91c596fd3e2f4ce3",
   "lastOpenFiles": [
     "Notes/Docker/Tartalom.md",
     "Untitled.canvas",
