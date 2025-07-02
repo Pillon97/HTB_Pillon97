@@ -11,10 +11,14 @@
             "id": "1fdd52decb8bc0fc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Penetration Testing Process.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Penetration Testing Process"
             }
           }
         ]
@@ -177,6 +181,7 @@
   },
   "active": "91c596fd3e2f4ce3",
   "lastOpenFiles": [
+    "Notes/Penetration Testing Process.md",
     "Notes/Docker/Tartalom.md",
     "Untitled.canvas",
     "Notes/Pentest/Alapok.md",
