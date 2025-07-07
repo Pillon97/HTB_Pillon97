@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "20429a2d75bb6f4e",
+        "id": "f0fe7cbc526b54c3",
         "type": "tabs",
         "children": [
           {
-            "id": "1fdd52decb8bc0fc",
+            "id": "05082bdd9d751a7a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Shell/Keywords.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Keywords"
+              "title": "New tab"
             }
           }
         ]
@@ -179,14 +175,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1fdd52decb8bc0fc",
+  "active": "91c596fd3e2f4ce3",
   "lastOpenFiles": [
+    "Untitled.canvas",
     "Notes/Penetration Testing Process.md",
+    "2025-07-07.md",
     "Notes/Shell/Keywords.md",
     "Notes/Shell",
     "Notes/Shell.md",
-    "Untitled.canvas",
-    "2025-07-07.md",
     "Notes/Docker/Tartalom.md",
     "Notes/Pentest/Alapok.md",
     "Notes/Docker",
