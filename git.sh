@@ -1,1 +1,0 @@
-/home/pillon97/HTB/scripts/git.sh
