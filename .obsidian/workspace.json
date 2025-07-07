@@ -11,10 +11,14 @@
             "id": "05082bdd9d751a7a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Penetration Testing Process.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Penetration Testing Process"
             }
           }
         ]
@@ -175,12 +179,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "91c596fd3e2f4ce3",
+  "active": "05082bdd9d751a7a",
   "lastOpenFiles": [
-    "Untitled.canvas",
-    "Notes/Penetration Testing Process.md",
-    "2025-07-07.md",
     "Notes/Shell/Keywords.md",
+    "Notes/Penetration Testing Process.md",
+    "Untitled.canvas",
+    "2025-07-07.md",
     "Notes/Shell",
     "Notes/Shell.md",
     "Notes/Docker/Tartalom.md",
