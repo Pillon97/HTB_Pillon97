@@ -1,5 +1,19 @@
 #!/bin/bash
 
+TARGET="$HOME/HTB/git.sh"
+SOURCE="$HOME/HTB/scripts/git.sh"
+
+# Célkönyvtár létrehozása, ha nem létezik
+mkdir -p "$(dirname "$TARGET")"
+
+# Ha még nincs ott a link/fájl
+if [ -e "$TARGET" ]; then
+    echo "Már létezik: $TARGET"
+else
+    ln -s "$SOURCE" "$TARGET"
+    echo "Szimbólikus link létrehozva: $TARGET → $SOURCE"
+fi
+
 # Színkódok
 RED="\e[31m"
 GREEN="\e[32m"
@@ -12,7 +26,7 @@ RESET="\e[0m"
 BOLD="\e[1m"
 
 # Banner megjelenítése
-clear
+# clear
 echo -e "${GREEN}#########################################################################"
 echo -e "#                                                                       #"
 echo -e "#     ██████╗ ██╗██╗     ██╗      ██████╗ ███╗   ██╗ █████╗ ███████╗    #"
