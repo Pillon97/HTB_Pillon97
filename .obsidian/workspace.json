@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Penetration Testing Process.md",
+                "file": "Notes/Álltalános.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Penetration Testing Process"
+              "title": "Álltalános"
             }
           }
         ]
@@ -181,8 +181,13 @@
   },
   "active": "05082bdd9d751a7a",
   "lastOpenFiles": [
-    "Notes/Shell/Keywords.md",
+    "Pasted image 20250725133441.png",
+    "Notes/Untitled.md",
+    "Notes/Git-dump.md",
+    "Notes/Álltalános.md",
+    "Notes/Untitled",
     "Notes/Penetration Testing Process.md",
+    "Notes/Shell/Keywords.md",
     "Untitled.canvas",
     "2025-07-07.md",
     "Notes/Shell",
@@ -200,7 +205,6 @@
     "scripts/pillon.sh",
     "scripts/gobuster.sh",
     "scripts/git.sh",
-    "scripts",
     "Notes/Tűzfal.md",
     "Notes/Tartalom.md",
     "Notes/Untitled.canvas",
