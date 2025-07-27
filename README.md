@@ -1,4 +1,6 @@
-<p align="center"><strong>Pillon97 HTB Repository</strong></p>
+<p align="center">
+  <img src="carbon.png" alt="Hack The Box Banner" width="600">
+</p>
 
 ---
 
