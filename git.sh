@@ -1,1 +1,0 @@
-/home/kali/HTB/scripts/git.sh
