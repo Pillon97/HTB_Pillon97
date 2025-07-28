@@ -1,3 +1,18 @@
+# Sorvégek normalizálása
+* text=auto
+
+# Dokumentáció kizárása nyelvi statból
 *.md linguist-documentation
-*.png linguist-generated
+
+# Képek binárisak
+*.png binary
+*.jpg binary
+
+# Shell scriptek nyelvi besorolása
 *.sh linguist-language=Shell
+
+# PCAP fájlokat ne diffelje
+*.pcap binary
+
+# GitHub statisztikából kizárt fájlok
+notes/private.md linguist-documentation
