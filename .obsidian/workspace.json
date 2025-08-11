@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/General commands.md",
+                "file": "notes/Git aldomain forráskód kinyerése.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "General commands"
+              "title": "Git aldomain forráskód kinyerése"
             }
           }
         ],
@@ -194,10 +194,12 @@
   },
   "active": "69d0907ad93f44a2",
   "lastOpenFiles": [
+    "notes/Web Applications.md",
+    "notes/Git aldomain forráskód kinyerése.md",
     "README.md",
-    "notes/Penetration Testing Process.md",
     "notes/General commands.md",
-    "notes/Git-dump.md",
+    "carbon.png",
+    "notes/Penetration Testing Process.md",
     "scripts/ping.sh",
     "scripts/nmap.sh",
     "scripts/ncat.sh",
