@@ -192,8 +192,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "69d0907ad93f44a2",
+  "active": "91c596fd3e2f4ce3",
   "lastOpenFiles": [
+    "machines/editor/10.10.11.80.txt",
+    "machines/editor",
+    "machines",
+    "LICENSE",
     "notes/Web Applications.md",
     "notes/Git aldomain forráskód kinyerése.md",
     "README.md",
@@ -210,10 +214,7 @@
     "Notes/Getting_Started_Module_Cheat_Sheet.pdf",
     "Notes/Titanic.pdf",
     "Notes/Penetration Testing Process.md",
-    "Notes/Network_Enumeration_With_Nmap_Module_Cheat_Sheet.pdf",
-    "Notes/LinkVortex.pdf",
     "Notes/Git-dump.md",
-    "Notes/Footprinting_Module_Cheat_Sheet.pdf",
     "Pasted image 20250725133441.png",
     "Notes/Shell/Keywords.md",
     "Untitled.canvas",
