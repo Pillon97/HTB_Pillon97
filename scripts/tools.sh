@@ -1,7 +1,7 @@
 #!/bin/bash
 
-TARGET="$HOME/HTB/git.sh"
-SOURCE="$HOME/HTB/scripts/git.sh"
+TARGET="$HOME/HTB_Pillon97/git.sh"
+SOURCE="$HOME/HTB_Pillon97/scripts/git.sh"
 
 # Célkönyvtár létrehozása, ha nem létezik
 mkdir -p "$(dirname "$TARGET")"
@@ -13,7 +13,15 @@ else
     ln -s "$SOURCE" "$TARGET"
     echo "Szimbólikus link létrehozva: $TARGET → $SOURCE"
 fi
-
+echo "Add meg a machine nevét!"
+read MACHINE
+TARGET2="$HOME/HTB_Pillon97/machines/$MACHINE"
+if [ -e "$TARGET2" ]; then
+    echo "Már létezik: $TARGET2" 
+else
+    mkdir $TARGET2
+    echo "A mappa létrehoztam!"
+fi
 # Színkódok
 RED="\e[31m"
 GREEN="\e[32m"
@@ -57,19 +65,29 @@ case $choice in
 	./vpn.sh 
 	;;
     2) echo -e "${GREEN}Nmap indítása...${RESET}"
-	./nmap.sh
-	;;
+	echo "Addmeg a host ip-t!."
+	read HOST
+	mkdir $TARGET2/$HOST
+	./nmap.sh $HOST $MACHINE;;
     3) echo -e "${GREEN}Ncat indítása...${RESET}"
 	./ncat.sh
 	;;
-    4) echo -e "${GREEN}Gobuster indítása...${RESET}" 
-	./gobuster.sh
-	;;
+	4)
+    	echo -e "${GREEN}Gobuster indítása...${RESET}" 
+    	if [ -z "$HOST" ]; then 
+        	read -p "Add meg a host IP-t: " HOST
+    	fi
+    	read -p "Add meg a domaint: " DOMAIN
+    	echo "$HOST $DOMAIN" | sudo tee -a /etc/hosts
+    	./gobuster.sh "$DOMAIN"
+    	;;
+
     5) echo -e "${GREEN}FFuF indítása...${RESET}" 
-	./ffuf.sh;;
-    6) echo -e "${GREEN}Ping újraindítása...${RESET}" ;;
+	./ffuf.sh
+	;;
+    6) echo -e "${GREEN}Ping újraindítása...${RESET}";;
     7) echo -e "${GREEN}Git indítása...${RESET}" 
 	./git.sh
 	;;
-    *) echo -e "${RED}Érvénytelen választás!${RESET}" ;;
+    *) echo -e "${RED}Érvénytelen választás!${RESET}";;
 esac
