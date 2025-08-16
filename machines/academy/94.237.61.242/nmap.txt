@@ -1,0 +1,61 @@
+# Nmap 7.95 scan initiated Fri Aug 15 10:28:41 2025 as: /usr/lib/nmap/nmap --privileged -sC -sV -oN /home/pillon97/HTB_Pillon97/machines/academy/94.237.61.242/nmap.txt 94.237.61.242
+Nmap scan report for 94-237-61-242.uk-lon1.upcloud.host (94.237.61.242)
+Host is up (0.067s latency).
+Not shown: 981 closed tcp ports (reset)
+PORT      STATE    SERVICE          VERSION
+19/tcp    filtered chargen
+21/tcp    open     tcpwrapped
+22/tcp    open     ssh              OpenSSH 9.2p1 Debian 2+deb12u3 (protocol 2.0)
+| ssh-hostkey: 
+|   256 f1:5d:b8:f2:39:6f:41:d9:3b:cb:90:cf:f9:bc:5d:f0 (ECDSA)
+|_  256 51:aa:39:a9:3b:81:15:21:a1:08:7c:32:22:5f:d5:9e (ED25519)
+25/tcp    filtered smtp
+111/tcp   open     rpcbind          2-4 (RPC #100000)
+| rpcinfo: 
+|   program version    port/proto  service
+|   100000  2,3,4        111/tcp   rpcbind
+|   100000  2,3,4        111/udp   rpcbind
+|   100000  3,4          111/tcp6  rpcbind
+|_  100000  3,4          111/udp6  rpcbind
+135/tcp   filtered msrpc
+139/tcp   filtered netbios-ssn
+445/tcp   filtered microsoft-ds
+646/tcp   filtered ldp
+711/tcp   filtered cisco-tdp
+31038/tcp filtered unknown
+32775/tcp filtered sometimes-rpc13
+32779/tcp open     http             Node.js (Express middleware)
+|_http-title: Blinker Fluids\xE2\x84\xA2
+38292/tcp filtered landesk-cba
+44442/tcp filtered coldfusion-auth
+44443/tcp open     coldfusion-auth?
+| fingerprint-strings: 
+|   GetRequest: 
+|     > /home/ctf/run_challenge.sh: line 3: 332 Illegal instruction ./space
+|   HTTPOptions: 
+|     > /home/ctf/run_challenge.sh: line 3: 334 Segmentation fault ./space
+|   LPDString: 
+|     > /home/ctf/run_challenge.sh: line 3: 358 Segmentation fault ./space
+|   RTSPRequest: 
+|_    > /home/ctf/run_challenge.sh: line 3: 336 Segmentation fault ./space
+51493/tcp filtered unknown
+52848/tcp filtered unknown
+57294/tcp filtered unknown
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port44443-TCP:V=7.95%I=7%D=8/15%Time=689EEFC8%P=x86_64-pc-linux-gnu%r(N
+SF:ULL,2,">\x20")%r(GenericLines,2,">\x20")%r(GetRequest,4C,">\x20/home/ct
+SF:f/run_challenge\.sh:\x20line\x203:\x20\x20\x20332\x20Illegal\x20instruc
+SF:tion\x20\x20\x20\x20\x20\./space\n")%r(HTTPOptions,4C,">\x20/home/ctf/r
+SF:un_challenge\.sh:\x20line\x203:\x20\x20\x20334\x20Segmentation\x20fault
+SF:\x20\x20\x20\x20\x20\x20\./space\n")%r(RTSPRequest,4C,">\x20/home/ctf/r
+SF:un_challenge\.sh:\x20line\x203:\x20\x20\x20336\x20Segmentation\x20fault
+SF:\x20\x20\x20\x20\x20\x20\./space\n")%r(DNSStatusRequestTCP,2,">\x20")%r
+SF:(Help,2,">\x20")%r(X11Probe,2,">\x20")%r(LPDString,4C,">\x20/home/ctf/r
+SF:un_challenge\.sh:\x20line\x203:\x20\x20\x20358\x20Segmentation\x20fault
+SF:\x20\x20\x20\x20\x20\x20\./space\n")%r(LDAPBindReq,2,">\x20")%r(LANDesk
+SF:-RC,2,">\x20")%r(TerminalServer,2,">\x20")%r(NCP,2,">\x20")%r(JavaRMI,2
+SF:,">\x20")%r(afp,2,">\x20");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Aug 15 10:29:07 2025 -- 1 IP address (1 host up) scanned in 26.59 seconds

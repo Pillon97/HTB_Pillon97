@@ -1,0 +1,1 @@
+# Nmap 7.95 scan initiated Wed Aug  6 11:57:07 2025 as: /usr/lib/nmap/nmap --privileged -sC -sV -oN /home/pillon97/HTB_Pillon97/machines/academy/10.129.42.197/nmap.txt 10.129.42.197
