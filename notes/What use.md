@@ -150,7 +150,3 @@ Tippek: a Metasploit moduljai lehetővé teszik gyors tesztelést, míg a msfven
 Ez a lista természetesen nem teljes, hiszen a HTB tanulmányaim során folyamatosan új eszközöket és technikákat ismerek meg. Ugyanakkor jó alapot ad az eddig megszerzett tudás áttekintéséhez, és segít a további gyakorlásban.
 
 ---
-
-Ha szeretnéd, készíthetek belőle **közvetlenül blogra illeszthető HTML verziót**, ami már szép formázással, kódblokkokkal és címekkel jelenik meg a weben.
-
-Szeretnéd, hogy elkészítsem?
