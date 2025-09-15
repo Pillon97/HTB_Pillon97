@@ -80,6 +80,10 @@ Könyvtárak felsorolása:
 ```shell
 fuff -w /opt/useful/seclists/Discovery/Web-Content/common.txt -u http://link.link:port/FUZZ
 ```
+VHOST:
+```
+fuff -w /opt/useful/seclists/Discovery/Web-Content/common.txt -u http://link.link:port -H ""
+```
 Extension felsorolás:
 ```shell
 ffuf -w /opt/useful/seclists/Discovery/Web-Content/web-extensions.txt:FUZZ -u http://link.link:port/indexFUZZ
@@ -91,4 +95,14 @@ ffuf -w /usr/share/wordlists/seclists/Discovery/Web-Content/directory-list-2.3-b
 Rekurzív:
 ```shell
 ffuf -w /usr/share/wordlists/seclists/Discovery/Web-Content/common.txt:FUZZ -u http://94.237.61.242:38820/FUZZ -mc 200-299,301,302 -recursion -recursion-depth 1 -e .php -v
+```
+Parameter Fuzzing:
+- GET:
+```shell
+ffuf -w /opt/useful/seclists/Discovery/Web-Content/burp-parameter-names.txt:FUZZ -u http://admin.academy.htb:PORT/admin/admin.php?FUZZ=key -fs xxx
+```
+
+- POST:
+```shell
+ffuf -w /opt/useful/seclists/Discovery/Web-Content/burp-parameter-names.txt:FUZZ -u http://admin.academy.htb:PORT/admin/admin.php -X POST -d 'FUZZ=key' -H 'Content-Type: application/x-www-form-urlencoded' -fs xxx
 ```

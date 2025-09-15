@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/What use.md",
+                "file": "notes/Deobfuscation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "What use"
+              "title": "Deobfuscation"
             }
           }
         ],
@@ -211,12 +211,13 @@
   },
   "active": "67cc26f7ff3ebcb0",
   "lastOpenFiles": [
-    "notes/FFUF.md",
-    "notes/General commands.md",
-    "notes/Git aldomain forráskód kinyerése.md",
-    "notes/HTTP Status codes.md",
-    "notes/Web Applications.md",
     "notes/What use.md",
+    "notes/Deobfuscation.md",
+    "notes/General commands.md",
+    "notes/HTTP Status codes.md",
+    "notes/Git aldomain forráskód kinyerése.md",
+    "notes/FFUF.md",
+    "notes/Web Applications.md",
     "notes/Tools Learned on HTB.md",
     "machines/Sightless/10.10.11.32/Check list.md",
     "machines/Sightless/10.10.11.32/url.js",
@@ -249,7 +250,6 @@
     "Notes/Tűzfal.md",
     "Notes/Tartalom.md",
     "Notes/Untitled.canvas",
-    "Notes/GREP.md",
-    "Notes/Footprinting/POP3 OMAP.md"
+    "Notes/GREP.md"
   ]
 }
